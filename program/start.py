@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
                         "👥 كروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝑆𝑂𝐔𝑅𝐶𝐸 𝐶𝑂b𝑅𝐴", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "𝑆𝑂𝐔𝑅𝐶𝐸 𓌹 𝑨𝒏𝒅𝒚 𓌺 ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
             ]
