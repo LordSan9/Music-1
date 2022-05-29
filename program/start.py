@@ -75,14 +75,14 @@ async def start_(client: Client, message: Message):
                         "👥 كروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝑆𝑂𝐔𝑅𝐶𝐸 𓌹 𝑨𝒏𝒅𝒚 𓌺 ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "𝑺𝒐𝒖𝒓𝒄𝒓 𝑨𝒏𝒅𝒚", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
             ]
         ),
         disable_web_page_preview=True,
     )
-    await USER.add_contact(message.from_user.id, "جيبثون العرب")
+    await USER.add_contact(message.from_user.id, "𝑺𝒐𝒖𝒓𝒄𝒓 𝑨𝒏𝒅𝒚")
 
 
 @Client.on_message(
@@ -98,7 +98,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ كروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "𝑆𝑂𝐔𝑅𝐶𝐸 𝐶𝑂b𝑅𝐴", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "𝑺𝒐𝒖𝒓𝒄𝒓 𝑨𝒏𝒅𝒚", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
@@ -108,8 +108,6 @@ async def alive(client: Client, message: Message):
 ✨ أعمل الأن بشكل طبيعي
 🍀 مطوري : [{ALIVE_NAME}](https://t.me/{OWNER_NAME})
 ✨ إصداري: {__version__}
-🍀 إصدار البايوجرام: {pyrover}
-✨ إصدار البايثون: {__python_version__}
 🍀 إصدار المحادثة الصوتيه: {pytover.__version__}
 ✨ وقت البدء: {uptime}
 
