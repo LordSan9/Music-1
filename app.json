@@ -1,5 +1,5 @@
 {
-    "name": "『 كوبرا 』『Musíc』",
+    "name": "『 ANDY 』『Musíc』",
     "description": "بوت تشغيل الموسيقي والفيديو في االمحادثة الصوتية",
     "logo": "",
     "keywords": [
@@ -9,8 +9,7 @@
         "بيوجرام"
     ],
     "website": "https://t.me/VFF35",
-    "repository": "https://github.com/alfaransy/REWYT",
-    "success_url": "https://t.me/VFF35",
+    "repository": "https://github.com/",
     "env": {
         "API_ID": {
             "description": "api id تستطيع جلبه من my.telegram.org",
